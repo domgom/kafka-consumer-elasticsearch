@@ -1,15 +1,15 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.thomascook</groupId>
+	<groupId>thisismy.privaterepo</groupId>
 	<artifactId>kafka-consumer-elastic-search</artifactId>
 	<version>1.0.0</version>
 
 	<repositories>
 		<repository>
 			<id>atg</id>
-			<name>Thomas Cook Online Releases</name>
-			<url>https://mvn.devtools.thomascook.com/nexus/content/repositories/releases</url>
+			<name>RANDOM</name>
+			<url>NEXUS/releases</url>
 		</repository>
 	</repositories>
 
@@ -60,7 +60,7 @@
 				<configuration>
 					<archive>
 						<manifest>
-							<mainClass>com.thomascook.kafkaconsumer.ConsumerGroup</mainClass>
+							<mainClass>thisismy.privaterepo.kafkaconsumer.ConsumerGroup</mainClass>
 							<addClasspath>true</addClasspath>
 						</manifest>
 					</archive>
